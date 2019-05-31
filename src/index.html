@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Food Meal Recipes</title>
+</head>
+<body>
+  <!-- Header -->
+  <header id="header"> 
+      <div class="header-section container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="img/logo.png" alt="Logo Image">
+          </div>
+          <div class="col-md-8">
+            <h1 class="display-4">Find Food Meal Recipes from Around the World</h1>
+          </div>
+        </div>
+      </div>    
+  </header>
+
+          
+  <section class="section-search">
+    <div class="container search-wrapper">
+
+          <div>
+              <form class="search search-input">
+                  <input class="input" type="text" placeholder="Find food recipes ...">
+                  <button class="button-lg" type="submit">Search</button>
+              </form>
+          </div>
+
+          <div class="likes">
+              <div class="likes-field">
+                  <i class="fas fa-heart"></i>
+              </div>
+              <div class="likes-panel">
+                <ul class="likes-list">
+              <!-- <li>
+                        <a href="" class="d-flex likes-link">
+                          <img src="img/test-2.jpg" alt="">
+                          <div class="likes-data">
+                              <h6>Szechuan Beef</h6>
+                              <p><em>Chinese</em></p>
+                          </div>                    
+                        </a>
+                    </li> -->
+                </ul>
+              </div>
+        </div>
+    </div>
+  </section>
+  <!-- <section class="section-search">
+      <form class="form-inline search">
+          <input class="form-control my-3" type="text" placeholder="Find food recipes ...">
+          <button class="btn btn-warning my-3" type="submit">Search</button>
+      </form>
+  </section> -->
+
+  <!-- Meal Category Section -->
+   <section>
+     <div class="category-results container">
+       <div class="row">
+         <div class="category-list col-md-3">
+            <h4>Food Categories List</h4>
+            <ul class="list-group categories">
+         <!-- <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Beef</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Breakfast</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Chicken</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Desert</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Lamb</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Miscellaneous</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Pasta</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Pork</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Seafood</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Side</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Starter</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Vegan</a>
+              </li>
+              <li class="list-group-item food-category btn-outline-warning">
+                <a href="">Vegetarian</a>
+              </li> -->
+            </ul> 
+         </div>
+
+         <!-- Meal Recipes -->
+         <div class="col-md-3 meals-results">
+            <div class="d-flex flex-column">
+              <h4 class="category-meals-title">Meals Search Results</h4>
+              
+              
+              <ul class="meals-list">
+          <!--  <li>
+                  <a href="" class="d-flex results-link mb-4 ml-3">
+                     <img src="img/test-1.jpg" alt="">                 
+                     <div class="results-data">
+                        <h6>Beef Lo Mein</h6>
+                        <p><em>Chinese food</em></p>
+                     </div>                    
+                  </a>
+                </li>
+                <li>
+                  <a href="" class="d-flex results-link mb-4 ml-3">
+                     <img src="img/test-2.jpg" alt="">
+                     <div class="results-data">
+                        <h6>Szechuan Beef</h6>
+                        <p><em>Chinese food</em></p>
+                     </div>                    
+                  </a>
+                </li>
+                  <a href="" class="d-flex results-link mb-4 ml-3">
+                     <img src="img/test-3.jpg" alt="">
+                     <div class="results-data">
+                        <h6>Beef Wellington</h6>
+                        <p><em>British food</em></p>
+                     </div>                    
+                  </a>
+                </li>
+                </li>
+                  <a href="" class="d-flex results-link mb-4 ml-3">
+                     <img src="img/test-4.jpg" alt="">
+                     <div class="results-data">
+                        <h6>Beef stroganoff</h6>
+                        <p>Russian food</p>
+                     </div>                    
+                  </a>
+                </li> -->
+
+              </ul>
+
+              <div class="results-pages"></div>
+
+            </div>
+         </div>
+
+
+
+
+         <!-- Recipe Ingredients & Instructions -->
+
+         <div class="col-md-6 recipe">
+           <!-- <h4 class="recipe-name">Beef Lo Mein</h4>
+                <img src="img/test-1.jpg" alt=""> 
+
+                <button class="recipe-love">
+                   <i class="fas fa-heart"></i>
+                </button>          
+                <button class="recipe-love">
+                   <i class="far fa-heart"></i>
+                </button>          
+                
+
+
+
+                <h5 class="ingredients-title">Ingredients</h5> 
+                <ul class="recipe-ingredient-list">
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Beef: 1/2 lb</div> 
+                  </li>
+
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Salt: pinch</div>
+                  </li>
+
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Pepper: pinch</div>
+                  </li>
+
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Sesame Seed Oil: 2 tsp</div>
+                  </li>
+
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Egg: 1/2</div>
+                  </li>
+
+                  <li class="d-flex">
+                    <div class="p-1 align-self-start">
+                          <i class="fas fa-check"></i>
+                    </div>
+                    <div class="p-1 recipe-ingredient">Starch: 3 tbs</div>
+                  </li> 
+                </ul> 
+                
+
+                <h5 class="ingredients-title">Instruction</h5>
+                <ul class="recipe-instructions-list">
+                    <div class="recipe-instruction">
+                      <div class="d-flex recipe-icon">
+                            <div class="p-1 align-self-start">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        <div class="p-1">STEP 1 - MARINATING THE BEEF</div> 
+                      </div>
+                      <div class="recipe-steps">
+                        <p>In a bowl, add the beef, salt, 1 pinch white pepper, 1 Teaspoon sesame seed oil, 1/2 egg, corn starch,1 Tablespoon of oil and mix together.</p>
+                      </div>
+                    </div>
+
+                    <div class="recipe-instruction">
+                      <div class="d-flex recipe-icon">
+                            <div class="p-1 align-self-start">
+                                <i class="fas fa-check"></i>
+                            </div>
+                        <div class="p-1">STEP 2 - BOILING THE THE NOODLES</div> 
+                      </div>
+                      <div class="recipe-steps">
+                        <p>In a 6 qt pot add your noodles to boiling water until the noodles are submerged and boil on high heat for 10 seconds. After your noodles is done boiling strain and cool with cold water.</p>
+                      </div>
+                    </div> 
+                </ul>   
+                <a href="#" class="button-lg" target="_blank">Watch on Youtube</a>
+              
+              -->
+         </div>
+      </div>
+     </div>     
+   </section>
+   
+   <footer>
+    <div class="container copyright">
+      &copy; by <em>Hassan Farahani</em>. Powered by
+      <a href="https://www.themealdb.com/" target="_blank" class="link"><em>www.themealdb.com</em></a>.
+    </div>
+   </footer>
+
+  
+
+   <div style="margin-bottom: 10rem"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  
+</body>
+</html>
